@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- color of the top bar -->
+    <color name="colorPrimary">#0f459e</color>
+    <color name="colorPrimaryDark">#0d3f91</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="active">#62f442</color>
+    <color name="notActive">#41b2f4</color>
+    <color name="bigBlind">#822ecc</color>
+    <color name="smallBlind">#dae519</color>
+</resources>

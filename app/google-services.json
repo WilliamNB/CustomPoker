@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "832155258065",
+    "firebase_url": "https://dissertation-673a3.firebaseio.com",
+    "project_id": "dissertation-673a3",
+    "storage_bucket": "dissertation-673a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832155258065:android:132215a225002475",
+        "android_client_info": {
+          "package_name": "com.example.williamnestius_brow.custompoker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832155258065-1609662hbftn30t2o92104sj6kkccvav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRazqQaaV8rjDnapYI1hFmZydn_chtjd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

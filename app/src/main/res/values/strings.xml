@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Custom Poker</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signin">signin</string>
+    <string name="title_activity_signup">signup</string>
+
+    <string name="email_id">email id</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="failed">Authentication failed</string>
+    <string name="image">image</string>
+    <string name="create_a_new_account">Create a new Account!</string>
+    <string name="title_activity_create_new_user">CreateNewUser</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="logout_button">Logout</string>
+
+    <!-- button text strings -->
+    <string name="joinGameBtn"> Join Game</string>
+    <string name="addFriendBtn"> Add Friend</string>
+    <string name="createGameBtn"> Create Game</string>
+    <string name="friendsBtn"> Friends</string>
+    <string name="statisticsBtn"> Statistics </string>
+    <string name="cashGameBtn"> Create Cash Game</string>
+    <string name="tournamentGameBtn"> Create tournament Game </string>
+    <string name="customGameBtn"> Create Custom Game</string>
+    <string name="enterMaxBuyIn"> Enter the maximum buy in amount </string>
+    <string name="enterMinBuyIn"> Enter the minimum buy in amount </string>
+    <string name="enterBigBlind"> Enter the big blind value </string>
+    <string name="enterSmallBlind"> Enter the small blind value </string>
+    <string name="enterMinBet"> Enter the minimum bet a player can make </string>
+    <string name="buyBackHint"> Select to allow players to buy back in </string>
+    <string name="player1"> Host: </string>
+    <string name="player2"> Player2: </string>
+    <string name="player3"> Player3: </string>
+    <string name="player4"> Player4: </string>
+    <string name="player5"> Player5: </string>
+    <string name="player6"> Player6: </string>
+    <string name="startGameBtn"> Start Game </string>
+    <string name="enterGameId"> Enter a Game ID </string>
+    <string name="enterFriendId"> Enter a friends ID </string>
+    <string name="submit"> Submit </string>
+
+    <string name="checkButton"> Check </string>
+    <string name="matchButton"> Match </string>
+    <string name="raiseButton"> Raise </string>
+    <string name="foldButton"> Fold </string>
+    <string name="userInfo"> UserInfo </string>
+    <string name="userAmount"> UserAmount </string>
+
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_friends">Friends</string>
+    <string name="title_activity_create_game">CreateGame</string>
+    <string name="title_activity_join_game">JoinGame</string>
+    <string name="title_activity_select_game">Select Game Type</string>
+    <string name="title_activity_create_cash">Create Cash Game</string>
+    <string name="title_activity_lobby">Lobby</string>
+    <string name="title_activity_cash_game">CashGameActivity</string>
+    <string name="title_activity_tournament_game">TournamentGameActivity</string>
+    <string name="title_activity_create_tournament">Create Tournament game</string>
+    <string name="title_activity_lobby_t">Lobby</string>
+</resources>

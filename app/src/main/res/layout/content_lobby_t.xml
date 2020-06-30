@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LobbyTActivity"
+    tools:showIn="@layout/activity_lobby_t">
+
+
+    <TextView
+        android:id="@+id/TvGameId"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="368dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvGameId">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/TvPlayer1"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:text="@string/player1" />
+            <ImageButton
+                android:id="@+id/addPlayer1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_input_add"
+                android:onClick="onClickAdd"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/TvPlayer2"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:text="@string/player1" />
+            <ImageButton
+                android:id="@+id/addPlayer2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_input_add"
+                android:onClick="onClickAdd"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/TvPlayer3"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:text="@string/player1" />
+            <ImageButton
+                android:id="@+id/addPlayer3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_input_add"
+                android:onClick="onClickAdd"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/TvPlayer4"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:text="@string/player1" />
+            <ImageButton
+                android:id="@+id/addPlayer4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_input_add"
+                android:onClick="onClickAdd"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/TvPlayer5"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:text="@string/player1" />
+            <ImageButton
+                android:id="@+id/addPlayer5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_input_add"
+                android:onClick="onClickAdd"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/TvPlayer6"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:text="@string/player1" />
+            <ImageButton
+                android:id="@+id/addPlayer6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_input_add"
+                android:onClick="onClickAdd"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="onClickStartGame"
+        android:text="@string/startGameBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TvGameId"
+        app:layout_constraintVertical_bias="0.879" />
+
+
+
+</android.support.constraint.ConstraintLayout>
